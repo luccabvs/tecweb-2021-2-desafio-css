@@ -29,7 +29,7 @@ body {
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-/* .btn {
+.btn {
   position: relative;
   display: block;
   padding: 10px 15px;
@@ -77,4 +77,45 @@ body {
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-} */
+}
+
+.appbar{
+  display: flex;
+  flex-direction: row;
+  background-color:#f7d736;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.logo{
+  width:5%;
+}
+
+.subtitle{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  margin-left: 13px;
+}
+
+.form-card{
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  margin-left: 35%;
+  margin-right: 35%;
+  border: 10px solid white;
+  border-radius: 4px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.form-card-title, .autoresize{
+  border: unset;
+}
+
+.form-card-title{
+  font-size: 120%;
+  margin-bottom: 3%;
+}
