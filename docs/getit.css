@@ -104,8 +104,8 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 25px;
-  margin-left: 35%;
-  margin-right: 35%;
+  margin-left: 30%;
+  margin-right: 30%;
   border: 10px solid white;
   border-radius: 4px;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -119,3 +119,105 @@ body {
   font-size: 120%;
   margin-bottom: 3%;
 }
+
+.card-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 1%;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 178px;
+  height: 100px;
+  padding: 1%;
+  border-radius: 3px;
+  margin-top: 3%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.card-title{
+  font-size: 110%;
+  font-family: 'Permanent Marker', cursive;
+  justify-content: flex-start;
+  
+}
+
+.card-content{
+  display: flex;
+  justify-content: center;
+  font-size: 85%;
+  font-family: 'Permanent Marker', cursive;
+  color: #4c4c4c;
+  align-self: center;
+  padding-bottom: 10px;
+}
+
+.card-color-1{
+  background-color: #fae890;
+}
+
+.card-color-2{
+  background-color: #ead3a7;
+}
+
+.card-color-3{
+  background-color: #9de0f5;
+}
+
+.card-color-4{
+  background-color: #ef89ba;
+}
+
+.card-color-5{
+  background-color: #abe9c1;
+}
+/*
+.card-rotation-1{
+  transform: rotate(1deg);
+}
+
+.card-rotation-2{
+  transform: rotate(-1deg);
+}
+
+.card-rotation-3{
+  transform: rotate(2deg); 
+}
+
+.card-rotation-4{
+  transform: rotate(-2deg);  
+}
+
+.card-rotation-5{
+  transform: rotate(3deg);
+}
+
+.card-rotation-6{
+  transform: rotate(-3deg);
+}
+
+.card-rotation-7{
+  transform: rotate(4deg);
+}
+
+.card-rotation-8{
+  transform: rotate(-4deg);
+}
+
+.card-rotation-9{
+  transform: rotate(5deg);
+}
+
+.card-rotation-10{
+  transform: rotate(-5deg);
+
+}
+
+.card-rotation-11{
+  transform: rotate(0deg);
+}*/
