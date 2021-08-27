@@ -126,35 +126,44 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 1%;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 .card{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  width: 178px;
-  height: 100px;
-  padding: 1%;
+  justify-content: space-around;
+  width: 15%;
+  height: 120px;
   border-radius: 3px;
   margin-top: 3%;
+
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 .card-title{
+  display: flex;
+  flex-direction: column;
   font-size: 110%;
   font-family: 'Permanent Marker', cursive;
   justify-content: flex-start;
-  
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .card-content{
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   font-size: 85%;
   font-family: 'Permanent Marker', cursive;
   color: #4c4c4c;
-  align-self: center;
   padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .card-color-1{
@@ -176,7 +185,7 @@ body {
 .card-color-5{
   background-color: #abe9c1;
 }
-/*
+
 .card-rotation-1{
   transform: rotate(1deg);
 }
@@ -220,4 +229,4 @@ body {
 
 .card-rotation-11{
   transform: rotate(0deg);
-}*/
+}
